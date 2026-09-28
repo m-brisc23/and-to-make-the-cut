@@ -25,6 +25,6 @@ fun ToMakeTheCutNavHost(
                 navController.navigateToPlayerDetail(tournamentId, playerId) { launchSingleTop = true }
             },
         )
-        playerDetailScreen(onBack = navController::popBackStack)
+        playerDetailScreen(onBack = { navController.popBackStack() })
     }
 }

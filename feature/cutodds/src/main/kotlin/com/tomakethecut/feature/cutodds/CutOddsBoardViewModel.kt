@@ -71,7 +71,7 @@ class CutOddsBoardViewModel @Inject constructor(
     private val board: Flow<Pair<Tournament?, LoadState<CutOddsBoard>>> =
         selectedTournament.flatMapLatest { tournament ->
             if (tournament == null) {
-                flowOf(null to LoadState.Loading)
+                flowOf<Pair<Tournament?, LoadState<CutOddsBoard>>>(null to LoadState.Loading)
             } else {
                 boardFor(tournament.id).map { tournament to it }
             }
