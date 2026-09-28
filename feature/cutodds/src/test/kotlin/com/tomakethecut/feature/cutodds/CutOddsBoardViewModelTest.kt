@@ -13,6 +13,7 @@ import com.tomakethecut.core.testing.TestData
 import com.tomakethecut.core.ui.state.ErrorKind
 import com.tomakethecut.core.ui.state.LoadState
 import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher

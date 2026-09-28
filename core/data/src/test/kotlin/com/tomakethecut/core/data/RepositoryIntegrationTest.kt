@@ -8,6 +8,7 @@ import com.tomakethecut.core.model.Tour
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.test.runTest
 import okhttp3.Interceptor
+import okhttp3.ResponseBody.Companion.toResponseBody
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
@@ -87,7 +88,7 @@ class RepositoryIntegrationTest {
                     .protocol(okhttp3.Protocol.HTTP_1_1)
                     .code(503)
                     .message("Unavailable")
-                    .body(okhttp3.ResponseBody.create(null, ""))
+                    .body("".toResponseBody(null))
                     .build()
             },
         )
