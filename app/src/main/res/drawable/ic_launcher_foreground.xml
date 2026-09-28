@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A flag on a green with a rising line: "odds of making it". -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFCFCFB"
+        android:pathData="M50,30 L52,30 L52,74 L50,74 Z" />
+    <path
+        android:fillColor="#FFFDDFA6"
+        android:pathData="M52,30 L70,36 L52,42 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFCFCFB"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,72 L44,64 L56,68 L74,52" />
+</vector>

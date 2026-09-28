@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_ui_error_network">Can\'t reach the odds service. Check your connection.</string>
+    <string name="core_ui_error_not_found">We couldn\'t find that.</string>
+    <string name="core_ui_error_server">The odds service is having trouble. Try again shortly.</string>
+    <string name="core_ui_error_unknown">Something went wrong.</string>
+    <string name="core_ui_retry">Retry</string>
+    <string name="core_ui_loading">Loading</string>
+    <string name="core_ui_made_cut">Made cut</string>
+    <string name="core_ui_missed_cut">Missed cut</string>
+    <string name="core_ui_mock_banner">Demo data: simulated odds &amp; stats for the 2025–26 seasons. Not betting advice. 21+.</string>
+    <string name="core_ui_change_up">Up %1$s since open</string>
+    <string name="core_ui_change_down">Down %1$s since open</string>
+</resources>
