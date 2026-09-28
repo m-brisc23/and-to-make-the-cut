@@ -1,0 +1,68 @@
+{
+  "playerId": "min-woo-lee",
+  "playerName": "Min Woo Lee",
+  "country": "AUS",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 19,
+  "cutsMade": 10,
+  "wins": 0,
+  "top10s": 0,
+  "scoringAverage": 70.63,
+  "strokesGained": {
+    "total": 0.45,
+    "offTheTee": -0.3,
+    "approach": 0.75,
+    "aroundTheGreen": 0.11,
+    "putting": -0.11
+  },
+  "drivingDistance": 294.1,
+  "drivingAccuracyPct": 64.6,
+  "greensInRegulationPct": 66.0,
+  "pointsRank": 28,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2025-08-10",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "25",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "67",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "64",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "11",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2025-02-09",
+      "finish": "53",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

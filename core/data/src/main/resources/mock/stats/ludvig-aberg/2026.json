@@ -1,0 +1,74 @@
+{
+  "playerId": "ludvig-aberg",
+  "playerName": "Ludvig Åberg",
+  "country": "SWE",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 25,
+  "cutsMade": 21,
+  "wins": 0,
+  "top10s": 5,
+  "scoringAverage": 69.71,
+  "strokesGained": {
+    "total": 1.41,
+    "offTheTee": 0.16,
+    "approach": 0.61,
+    "aroundTheGreen": 0.08,
+    "putting": 0.56
+  },
+  "drivingDistance": 301.3,
+  "drivingAccuracyPct": 68.4,
+  "greensInRegulationPct": 68.5,
+  "pointsRank": 9,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "36",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "4",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "30",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "24",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "20",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "4",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

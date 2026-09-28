@@ -1,0 +1,74 @@
+{
+  "playerId": "chandler-blanchet",
+  "playerName": "Chandler Blanchet",
+  "country": "USA",
+  "season": 2025,
+  "tour": "KORN_FERRY_TOUR",
+  "eventsPlayed": 20,
+  "cutsMade": 17,
+  "wins": 1,
+  "top10s": 6,
+  "scoringAverage": 70.15,
+  "strokesGained": {
+    "total": 0.85,
+    "offTheTee": 0.33,
+    "approach": 0.48,
+    "aroundTheGreen": 0.12,
+    "putting": -0.08
+  },
+  "drivingDistance": 302.7,
+  "drivingAccuracyPct": 68.8,
+  "greensInRegulationPct": 66.4,
+  "pointsRank": 2,
+  "pointsLabel": "Korn Ferry Tour Points",
+  "recentResults": [
+    {
+      "tournamentName": "Panama Championship",
+      "date": "2025-07-26",
+      "finish": "1",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Korn Ferry Tour Championship",
+      "date": "2025-07-05",
+      "finish": "T4",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Utah Championship",
+      "date": "2025-06-14",
+      "finish": "2",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Veritex Bank Championship",
+      "date": "2025-05-24",
+      "finish": "T21",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "UNC Health Championship",
+      "date": "2025-05-03",
+      "finish": "T15",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Astara Golf Championship",
+      "date": "2025-04-12",
+      "finish": "T23",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Albertsons Boise Open",
+      "date": "2025-03-22",
+      "finish": "3",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Visit Knoxville Open",
+      "date": "2025-03-01",
+      "finish": "MC",
+      "tour": "KORN_FERRY_TOUR"
+    }
+  ]
+}

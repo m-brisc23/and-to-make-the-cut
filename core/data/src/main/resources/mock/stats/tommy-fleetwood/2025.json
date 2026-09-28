@@ -1,0 +1,74 @@
+{
+  "playerId": "tommy-fleetwood",
+  "playerName": "Tommy Fleetwood",
+  "country": "ENG",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 22,
+  "cutsMade": 15,
+  "wins": 1,
+  "top10s": 3,
+  "scoringAverage": 69.64,
+  "strokesGained": {
+    "total": 1.54,
+    "offTheTee": 0.34,
+    "approach": 0.53,
+    "aroundTheGreen": 0.24,
+    "putting": 0.43
+  },
+  "drivingDistance": 302.2,
+  "drivingAccuracyPct": 61.0,
+  "greensInRegulationPct": 68.5,
+  "pointsRank": 5,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2025-06-01",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "31",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "51",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2025-03-09",
+      "finish": "48",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2025-02-16",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

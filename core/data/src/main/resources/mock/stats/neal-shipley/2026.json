@@ -1,0 +1,86 @@
+{
+  "playerId": "neal-shipley",
+  "playerName": "Neal Shipley",
+  "country": "USA",
+  "season": 2026,
+  "tour": "KORN_FERRY_TOUR",
+  "eventsPlayed": 19,
+  "cutsMade": 14,
+  "wins": 0,
+  "top10s": 6,
+  "scoringAverage": 70.11,
+  "strokesGained": {
+    "total": 0.92,
+    "offTheTee": 0.25,
+    "approach": 0.22,
+    "aroundTheGreen": 0.09,
+    "putting": 0.36
+  },
+  "drivingDistance": 311.9,
+  "drivingAccuracyPct": 58.9,
+  "greensInRegulationPct": 67.7,
+  "pointsRank": 18,
+  "pointsLabel": "Korn Ferry Tour Points",
+  "recentResults": [
+    {
+      "tournamentName": "Procore Championship",
+      "date": "2026-09-27",
+      "finish": "5",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2026-08-09",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Astara Golf Championship",
+      "date": "2026-07-26",
+      "finish": "2",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "UNC Health Championship",
+      "date": "2026-07-05",
+      "finish": "T8",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Visit Knoxville Open",
+      "date": "2026-06-14",
+      "finish": "T36",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Albertsons Boise Open",
+      "date": "2026-05-24",
+      "finish": "T36",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Utah Championship",
+      "date": "2026-05-03",
+      "finish": "T28",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Veritex Bank Championship",
+      "date": "2026-04-12",
+      "finish": "T32",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Panama Championship",
+      "date": "2026-03-22",
+      "finish": "MC",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Club Car Championship",
+      "date": "2026-03-01",
+      "finish": "T3",
+      "tour": "KORN_FERRY_TOUR"
+    }
+  ]
+}
