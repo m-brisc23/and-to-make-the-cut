@@ -23,9 +23,9 @@ import java.io.IOException
 class RepositoryIntegrationTest {
 
     private val network = TestNetwork()
-    private val tournaments = DefaultTournamentRepository(network.oddsApi, Dispatchers.Unconfined)
-    private val odds = DefaultCutOddsRepository(network.oddsApi, Dispatchers.Unconfined)
-    private val stats = DefaultPlayerStatsRepository(network.statsApi)
+    private val tournaments = DefaultTournamentRepository(network.oddsApi, Dispatchers.Unconfined, Dispatchers.Unconfined)
+    private val odds = DefaultCutOddsRepository(network.oddsApi, Dispatchers.Unconfined, Dispatchers.Unconfined)
+    private val stats = DefaultPlayerStatsRepository(network.statsApi, Dispatchers.Unconfined, Dispatchers.Unconfined)
 
     @Test
     fun `loads both seasons of tournaments`() = runTest {
@@ -70,7 +70,7 @@ class RepositoryIntegrationTest {
     @Test
     fun `io failures become network data exceptions`() = runTest {
         val offline = TestNetwork(extraInterceptor = Interceptor { throw IOException("airplane mode") })
-        val repository = DefaultCutOddsRepository(offline.oddsApi, Dispatchers.Unconfined)
+        val repository = DefaultCutOddsRepository(offline.oddsApi, Dispatchers.Unconfined, Dispatchers.Unconfined)
         try {
             repository.getMakeCutMarket("us-open-2025")
             fail("expected Network")
@@ -92,7 +92,7 @@ class RepositoryIntegrationTest {
                     .build()
             },
         )
-        val repository = DefaultTournamentRepository(broken.oddsApi, Dispatchers.Unconfined)
+        val repository = DefaultTournamentRepository(broken.oddsApi, Dispatchers.Unconfined, Dispatchers.Unconfined)
         try {
             repository.getTournaments(2026)
             fail("expected Server")

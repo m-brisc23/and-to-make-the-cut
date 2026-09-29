@@ -1,7 +1,6 @@
 package com.tomakethecut.feature.cutodds
 
 import com.tomakethecut.core.domain.usecase.BoardSort
-import com.tomakethecut.core.domain.usecase.CutOddsBoardEntry
 import com.tomakethecut.core.model.OddsSnapshot
 import com.tomakethecut.core.model.Seasons
 import com.tomakethecut.core.model.Tournament
@@ -35,7 +34,7 @@ data class CutOddsBoardUiState(
 data class BoardData(
     val tournament: Tournament,
     val snapshots: List<OddsSnapshot>,
-    /** Already filtered by the query and sorted. */
-    val entries: List<CutOddsBoardEntry>,
+    /** Already filtered by the query, sorted and mapped to display rows (off the main thread). */
+    val rows: List<BoardRow>,
     val totalPlayers: Int,
 )

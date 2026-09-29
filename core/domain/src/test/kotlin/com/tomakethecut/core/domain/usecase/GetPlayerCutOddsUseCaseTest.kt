@@ -1,6 +1,7 @@
 package com.tomakethecut.core.domain.usecase
 
 import com.tomakethecut.core.domain.DataException
+import com.tomakethecut.core.testing.CountingDispatcher
 import com.tomakethecut.core.testing.FakeCutOddsRepository
 import com.tomakethecut.core.testing.FakeTournamentRepository
 import com.tomakethecut.core.testing.TestData
@@ -13,7 +14,8 @@ class GetPlayerCutOddsUseCaseTest {
 
     private val odds = FakeCutOddsRepository()
     private val tournaments = FakeTournamentRepository()
-    private val useCase = GetPlayerCutOddsUseCase(odds, tournaments)
+    private val defaultDispatcher = CountingDispatcher()
+    private val useCase = GetPlayerCutOddsUseCase(odds, tournaments, defaultDispatcher)
 
     private val tournament = TestData.tournament()
 
@@ -26,6 +28,7 @@ class GetPlayerCutOddsUseCaseTest {
 
         assertEquals("Masters Tournament", detail.tournament.name)
         assertEquals("Scottie Scheffler", detail.entry.player.name)
+        assertTrue("timeline should be built on Default", defaultDispatcher.dispatches > 0)
     }
 
     @Test

@@ -67,7 +67,7 @@ class PlayerDetailViewModelTest {
                 PlayerDetailViewModel.ARG_PLAYER_ID to "keefer",
             ),
         ),
-        getPlayerCutOdds = GetPlayerCutOddsUseCase(odds, tournaments),
+        getPlayerCutOdds = GetPlayerCutOddsUseCase(odds, tournaments, mainDispatcherRule.testDispatcher),
         getPlayerStats = GetPlayerStatsUseCase(stats),
     )
 

@@ -52,7 +52,6 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tomakethecut.core.domain.usecase.BoardSort
-import com.tomakethecut.core.domain.usecase.CutOddsBoardEntry
 import com.tomakethecut.core.model.Tour
 import com.tomakethecut.core.model.Tournament
 import com.tomakethecut.core.model.TournamentStatus
@@ -165,7 +164,7 @@ private fun LazyListScope.boardSection(
             val data = board.data
             item(key = "header") { TournamentHeader(data) }
             item(key = "controls") { SearchAndSort(state.query, state.sort, onQueryChange, onSortChange) }
-            if (data.entries.isEmpty()) {
+            if (data.rows.isEmpty()) {
                 item(key = "empty") {
                     EmptyState(
                         if (data.totalPlayers == 0) {
@@ -176,8 +175,8 @@ private fun LazyListScope.boardSection(
                     )
                 }
             }
-            items(data.entries, key = { it.player.id }) { entry ->
-                PlayerOddsRow(entry, onClick = { onPlayerClick(data.tournament.id, entry.player.id) })
+            items(data.rows, key = { it.playerId }) { row ->
+                PlayerOddsRow(row, onClick = { onPlayerClick(data.tournament.id, row.playerId) })
                 HorizontalDivider(Modifier.padding(horizontal = 16.dp))
             }
         }
@@ -300,26 +299,27 @@ private fun BoardSort.labelRes(): Int = when (this) {
     BoardSort.NAME -> R.string.cutodds_sort_name
 }
 
+/** Pure rendering: every value arrives precomputed in [BoardRow], so composition does no work. */
 @Composable
-private fun PlayerOddsRow(entry: CutOddsBoardEntry, onClick: () -> Unit) {
+private fun PlayerOddsRow(row: BoardRow, onClick: () -> Unit) {
     val palette = ToMakeTheCutChartTheme.palette
-    val percent = entry.currentProbability?.formatPercent() ?: stringResource(R.string.cutodds_no_price)
-    val description = stringResource(R.string.cutodds_row_description, entry.player.name, percent)
+    val percent = row.percentText ?: stringResource(R.string.cutodds_no_price)
+    val description = stringResource(R.string.cutodds_row_description, row.name, percent)
     ListItem(
         modifier = Modifier
             .clickable(onClick = onClick)
             .semantics(mergeDescendants = true) { contentDescription = description },
-        headlineContent = { Text(entry.player.name, maxLines = 1, overflow = TextOverflow.Ellipsis) },
+        headlineContent = { Text(row.name, maxLines = 1, overflow = TextOverflow.Ellipsis) },
         supportingContent = {
             Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
-                    Text(entry.player.country, style = MaterialTheme.typography.bodySmall)
-                    if (entry.player.tour == Tour.KORN_FERRY_TOUR) TourBadge(entry.player.tour)
-                    entry.result?.let { CutResultBadge(it) }
+                    Text(row.country, style = MaterialTheme.typography.bodySmall)
+                    if (row.isKornFerry) TourBadge(Tour.KORN_FERRY_TOUR)
+                    row.result?.let { CutResultBadge(it) }
                 }
-                entry.bestYesPrice?.let {
+                if (row.bestPriceBook != null && row.bestPriceOdds != null) {
                     Text(
-                        stringResource(R.string.cutodds_best_price, it.sportsbook.displayName, it.odds.toString()),
+                        stringResource(R.string.cutodds_best_price, row.bestPriceBook, row.bestPriceOdds),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
@@ -328,14 +328,10 @@ private fun PlayerOddsRow(entry: CutOddsBoardEntry, onClick: () -> Unit) {
         },
         trailingContent = {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                Sparkline(
-                    values = entry.timeline.consensus.map { it?.value?.toFloat() },
-                    color = palette.consensus,
-                    referenceColor = palette.grid,
-                )
+                Sparkline(values = row.sparkline, color = palette.consensus, referenceColor = palette.grid)
                 Column(horizontalAlignment = Alignment.End) {
                     Text(percent, style = MaterialTheme.typography.titleMedium)
-                    ChangeIndicator(entry.changeSinceOpen)
+                    ChangeIndicator(row.changePoints)
                 }
             }
         },

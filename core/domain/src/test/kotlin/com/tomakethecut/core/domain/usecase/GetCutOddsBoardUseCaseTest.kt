@@ -2,6 +2,7 @@ package com.tomakethecut.core.domain.usecase
 
 import com.tomakethecut.core.domain.DataException
 import com.tomakethecut.core.model.Sportsbook
+import com.tomakethecut.core.testing.CountingDispatcher
 import com.tomakethecut.core.testing.FakeCutOddsRepository
 import com.tomakethecut.core.testing.TestData
 import kotlinx.coroutines.test.runTest
@@ -12,7 +13,17 @@ import org.junit.Test
 class GetCutOddsBoardUseCaseTest {
 
     private val repository = FakeCutOddsRepository()
-    private val useCase = GetCutOddsBoardUseCase(repository)
+    private val defaultDispatcher = CountingDispatcher()
+    private val useCase = GetCutOddsBoardUseCase(repository, defaultDispatcher)
+
+    @Test
+    fun `board is built on the default dispatcher, not the caller's`() = runTest {
+        repository.markets["t"] = TestData.market(tournamentId = "t")
+
+        useCase("t").getOrThrow()
+
+        assertTrue(defaultDispatcher.dispatches > 0)
+    }
 
     @Test
     fun `best yes price is the highest paying book at the latest snapshot`() = runTest {

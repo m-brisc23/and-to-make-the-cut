@@ -3,6 +3,7 @@ package com.tomakethecut.feature.cutodds
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.tomakethecut.core.domain.di.DefaultDispatcher
 import com.tomakethecut.core.domain.usecase.BoardSort
 import com.tomakethecut.core.domain.usecase.CutOddsBoard
 import com.tomakethecut.core.domain.usecase.GetCutOddsBoardUseCase
@@ -16,6 +17,7 @@ import com.tomakethecut.core.ui.state.LoadState
 import com.tomakethecut.core.ui.state.loadWithRetry
 import com.tomakethecut.core.ui.state.toLoadState
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow
@@ -27,6 +29,7 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
@@ -45,6 +48,7 @@ class CutOddsBoardViewModel @Inject constructor(
     private val savedStateHandle: SavedStateHandle,
     private val getTournaments: GetTournamentsUseCase,
     private val getCutOddsBoard: GetCutOddsBoardUseCase,
+    @DefaultDispatcher private val defaultDispatcher: CoroutineDispatcher,
 ) : ViewModel() {
 
     private val selectedSeason = savedStateHandle.getStateFlow(KEY_SEASON, Seasons.current)
@@ -90,7 +94,7 @@ class CutOddsBoardViewModel @Inject constructor(
                         BoardData(
                             tournament = requireNotNull(tournament),
                             snapshots = boardState.data.snapshots,
-                            entries = boardState.data.entries.filterAndSort(c.query, c.sort),
+                            rows = boardState.data.entries.filterAndSort(c.query, c.sort).map { it.toRow() },
                             totalPlayers = boardState.data.entries.size,
                         ),
                     )
@@ -102,7 +106,11 @@ class CutOddsBoardViewModel @Inject constructor(
                 isRefreshing = c.isRefreshing,
                 transientError = c.transientError,
             )
-        }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(STOP_TIMEOUT_MS), CutOddsBoardUiState())
+        }
+            // Filtering, sorting and building rows re-run on every keystroke and refresh.
+            // flowOn moves that upstream work to Default; stateIn still delivers on Main.
+            .flowOn(defaultDispatcher)
+            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(STOP_TIMEOUT_MS), CutOddsBoardUiState())
 
     fun onSeasonSelected(season: Int) {
         if (season == selectedSeason.value) return

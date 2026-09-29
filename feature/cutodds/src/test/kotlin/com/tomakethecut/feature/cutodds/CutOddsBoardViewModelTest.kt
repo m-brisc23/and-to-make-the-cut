@@ -67,7 +67,8 @@ class CutOddsBoardViewModelTest {
     private fun createViewModel(savedState: Map<String, Any?> = emptyMap()) = CutOddsBoardViewModel(
         savedStateHandle = SavedStateHandle(savedState),
         getTournaments = GetTournamentsUseCase(tournamentRepository),
-        getCutOddsBoard = GetCutOddsBoardUseCase(oddsRepository),
+        getCutOddsBoard = GetCutOddsBoardUseCase(oddsRepository, mainDispatcherRule.testDispatcher),
+        defaultDispatcher = mainDispatcherRule.testDispatcher,
     )
 
     /** `stateIn(WhileSubscribed)` only runs while collected, exactly like on screen. */
@@ -89,7 +90,7 @@ class CutOddsBoardViewModelTest {
 
         val state = viewModel.uiState.value
         assertEquals("sanderson-2026", state.selectedTournamentId)
-        assertEquals(listOf("scheffler", "keefer"), state.boardData.entries.map { it.player.id })
+        assertEquals(listOf("scheffler", "keefer"), state.boardData.rows.map { it.playerId })
     }
 
     @Test
@@ -145,7 +146,7 @@ class CutOddsBoardViewModelTest {
         viewModel.onQueryChange("keef")
 
         val data = viewModel.uiState.value.boardData
-        assertEquals(listOf("keefer"), data.entries.map { it.player.id })
+        assertEquals(listOf("keefer"), data.rows.map { it.playerId })
         assertEquals(2, data.totalPlayers)
     }
 
@@ -156,7 +157,7 @@ class CutOddsBoardViewModelTest {
 
         viewModel.onSortChange(BoardSort.LEAST_LIKELY)
 
-        assertEquals(listOf("keefer", "scheffler"), viewModel.uiState.value.boardData.entries.map { it.player.id })
+        assertEquals(listOf("keefer", "scheffler"), viewModel.uiState.value.boardData.rows.map { it.playerId })
     }
 
     @Test
@@ -171,7 +172,7 @@ class CutOddsBoardViewModelTest {
 
         val state = viewModel.uiState.value
         assertEquals("procore-2026", state.selectedTournamentId)
-        assertEquals(listOf("scheffler"), state.boardData.entries.map { it.player.id })
+        assertEquals(listOf("scheffler"), state.boardData.rows.map { it.playerId })
     }
 
     @Test

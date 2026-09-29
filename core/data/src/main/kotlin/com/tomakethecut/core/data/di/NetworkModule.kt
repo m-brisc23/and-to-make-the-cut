@@ -10,8 +10,6 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.Dispatchers
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
@@ -66,13 +64,13 @@ object NetworkModule {
     @Singleton
     fun provideStatsApi(@StatsRetrofit retrofit: Retrofit): StatsApi = retrofit.create()
 
-    @Provides
-    @IoDispatcher
-    fun provideIoDispatcher(): CoroutineDispatcher = Dispatchers.IO
-
     /**
-     * `callFactory` + `dagger.Lazy` defers building OkHttpClient (which does disk and TLS
-     * setup) until the first request, keeping it off the main thread during app startup.
+     * `callFactory` + `dagger.Lazy` defers building OkHttpClient (TLS/platform setup,
+     * interceptors) until the first request instead of at injection time.
+     *
+     * Note: Retrofit invokes the call factory on the *calling* thread. Laziness alone does not
+     * keep this off the main thread — the repositories make every API call inside
+     * `withContext(ioDispatcher)`, which is what actually guarantees it.
      */
     private fun retrofit(baseUrl: String, client: Lazy<OkHttpClient>, json: Json): Retrofit =
         Retrofit.Builder()

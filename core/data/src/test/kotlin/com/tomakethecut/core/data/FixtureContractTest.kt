@@ -18,9 +18,9 @@ import org.junit.Test
 class FixtureContractTest {
 
     private val network = TestNetwork()
-    private val tournaments = DefaultTournamentRepository(network.oddsApi, Dispatchers.Unconfined)
-    private val odds = DefaultCutOddsRepository(network.oddsApi, Dispatchers.Unconfined)
-    private val stats = DefaultPlayerStatsRepository(network.statsApi)
+    private val tournaments = DefaultTournamentRepository(network.oddsApi, Dispatchers.Unconfined, Dispatchers.Unconfined)
+    private val odds = DefaultCutOddsRepository(network.oddsApi, Dispatchers.Unconfined, Dispatchers.Unconfined)
+    private val stats = DefaultPlayerStatsRepository(network.statsApi, Dispatchers.Unconfined, Dispatchers.Unconfined)
 
     @Test
     fun `every tournament has a market and every priced player has stats`() = runTest {

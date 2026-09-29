@@ -254,10 +254,13 @@ Features never depend on each other, and only `:app` wires them together.
 
 - **`@Binds` for interface→implementation** (`DataModule`) and **`@Provides`** only when
   construction logic is needed (`NetworkModule`).
-- **Qualifiers** (`@OddsRetrofit`, `@StatsRetrofit`, `@IoDispatcher`). The two APIs live on
-  different hosts, and injecting dispatchers lets tests pass `Dispatchers.Unconfined`.
+- **Qualifiers** (`@OddsRetrofit`, `@StatsRetrofit`, and `@IoDispatcher`/`@DefaultDispatcher` in
+  `:core:domain`). The two APIs live on different hosts, and injecting dispatchers lets tests pass
+  a test or counting dispatcher.
 - **`dagger.Lazy<OkHttpClient>` + Retrofit's `callFactory`** defers building OkHttp, which does
-  disk and TLS setup, until the first request, keeping it off the startup path.
+  disk and TLS setup, until the first request. That controls *when* it's built, not *where*.
+  Retrofit calls the factory on the calling thread, so repositories make API calls inside
+  `withContext(ioDispatcher)` to keep that work off Main (see D17).
 - **`ApiConfig` is provided by `:app` from `BuildConfig`**. That's the only place build variants
   are read, which keeps `:core:data` variant-agnostic and easy to test.
 
@@ -269,6 +272,54 @@ Features never depend on each other, and only `:app` wires them together.
   easier to read than a `build-logic` included build. At around eight or more modules I'd extract
   convention plugins (as Now in Android does) so a new feature module is three lines.
 - **CI** runs every unit test and assembles the debug APK on each push.
+
+### D17. Threading model: nothing heavy on the main thread
+
+The main thread draws frames. Anything that holds it for more than a few milliseconds shows up
+as jank: a stuttering scroll, a sluggish chart scrub, typing that lags. The rules:
+
+| Dispatcher | Used for | Who switches to it |
+|---|---|---|
+| **Main** | Emitting UI state and composing | ViewModels start work here via `viewModelScope` |
+| **IO** | Network calls (and OkHttp/Retrofit's lazy initialisation on the first call) | Repositories, around `apiCall { }` |
+| **Default** | CPU work: DTO→model mapping, de-vigging and pivoting timelines, filter/sort, building list rows | Repositories (mapping), use cases (board building), the board ViewModel (`flowOn`) |
+
+**The class that does the heavy work switches dispatchers itself.** This is Google's
+main-safety rule. `GetCutOddsBoardUseCase` knows that building a board is expensive, so it wraps
+that step in `withContext(defaultDispatcher)`. Every caller can then call it from Main without
+thinking about threads.
+
+**What was slow, and what changed:**
+- **Board building ran on Main.** The use cases ran in `viewModelScope`, so pivoting ~1,000
+  prices into timelines, de-vigging each point and finding best prices all happened on the main
+  thread. It now runs on Default.
+- **Filtering and sorting ran on Main on every keystroke.** Rows also re-mapped their sparkline
+  data on every recomposition. The board's state pipeline now uses `.flowOn(defaultDispatcher)`
+  and produces `@Immutable BoardRow`s with everything precomputed. Rows that didn't change also
+  skip recomposition.
+- **OkHttp was built on Main.** Retrofit calls its `callFactory` on the calling thread, so the
+  "lazy" OkHttpClient was built on Main by the first request. `dagger.Lazy` only delays *when*
+  it's built, not *where*. Repositories now call the API inside `withContext(ioDispatcher)`.
+- **Mapping ran on IO.** IO's large thread pool is sized for *blocking* work. CPU-bound mapping
+  belongs on Default, which is sized to the number of cores.
+- **The chart re-measured text and rebuilt paths on every frame of a drag.** It now has a cached
+  base layer (`drawWithCache`) and a selection overlay. Scrubbing redraws only a line and a few
+  dots.
+
+**Guard rails.** Dispatchers are injected (`@IoDispatcher`, `@DefaultDispatcher`), never
+hard-coded, so:
+- `RepositoryDispatchersTest` and the use case tests assert, with a `CountingDispatcher`, that
+  work really moves off the caller's thread.
+- ViewModel tests stay deterministic with a `TestDispatcher`.
+
+Debug builds also enable `StrictMode`, so any disk or network access on Main is logged.
+
+**Two things that are not main-thread problems but still make the app *feel* slow:**
+- **Debug builds of Compose apps are much slower than release builds.** They skip R8, have no
+  Baseline Profile, and add debugging overhead. Judge performance with `assembleRelease`, and
+  profile with Perfetto or the Android Studio CPU profiler.
+- **The mock server adds `MOCK_LATENCY_MS` (600 ms) to every request on purpose,** so loading
+  states are visible. The board makes two requests in sequence (tournaments, then the market).
 
 ---
 
