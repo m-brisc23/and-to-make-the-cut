@@ -1,0 +1,68 @@
+{
+  "playerId": "wyndham-clark",
+  "playerName": "Wyndham Clark",
+  "country": "USA",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 22,
+  "cutsMade": 9,
+  "wins": 0,
+  "top10s": 0,
+  "scoringAverage": 70.78,
+  "strokesGained": {
+    "total": 0.13,
+    "offTheTee": -0.32,
+    "approach": -0.12,
+    "aroundTheGreen": 0.04,
+    "putting": 0.53
+  },
+  "drivingDistance": 312.4,
+  "drivingAccuracyPct": 62.4,
+  "greensInRegulationPct": 66.1,
+  "pointsRank": 60,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2025-08-10",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "48",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2025-02-09",
+      "finish": "11",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

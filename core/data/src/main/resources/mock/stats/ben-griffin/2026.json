@@ -1,0 +1,86 @@
+{
+  "playerId": "ben-griffin",
+  "playerName": "Ben Griffin",
+  "country": "USA",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 23,
+  "cutsMade": 18,
+  "wins": 0,
+  "top10s": 1,
+  "scoringAverage": 69.75,
+  "strokesGained": {
+    "total": 1.19,
+    "offTheTee": 0.25,
+    "approach": 0.53,
+    "aroundTheGreen": 0.2,
+    "putting": 0.21
+  },
+  "drivingDistance": 300.3,
+  "drivingAccuracyPct": 55.9,
+  "greensInRegulationPct": 69.2,
+  "pointsRank": 19,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2026-08-09",
+      "finish": "32",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "41",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "11",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "65",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "58",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "58",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "38",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2026-02-08",
+      "finish": "65",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

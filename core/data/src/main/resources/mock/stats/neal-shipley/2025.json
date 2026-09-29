@@ -1,0 +1,74 @@
+{
+  "playerId": "neal-shipley",
+  "playerName": "Neal Shipley",
+  "country": "USA",
+  "season": 2025,
+  "tour": "KORN_FERRY_TOUR",
+  "eventsPlayed": 21,
+  "cutsMade": 13,
+  "wins": 0,
+  "top10s": 3,
+  "scoringAverage": 70.43,
+  "strokesGained": {
+    "total": 0.52,
+    "offTheTee": 0.14,
+    "approach": 0.05,
+    "aroundTheGreen": 0.04,
+    "putting": 0.29
+  },
+  "drivingDistance": 313.7,
+  "drivingAccuracyPct": 57.8,
+  "greensInRegulationPct": 68.1,
+  "pointsRank": 43,
+  "pointsLabel": "Korn Ferry Tour Points",
+  "recentResults": [
+    {
+      "tournamentName": "Panama Championship",
+      "date": "2025-07-26",
+      "finish": "T35",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "UNC Health Championship",
+      "date": "2025-07-05",
+      "finish": "T32",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Korn Ferry Tour Championship",
+      "date": "2025-06-14",
+      "finish": "T12",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Astara Golf Championship",
+      "date": "2025-05-24",
+      "finish": "2",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Albertsons Boise Open",
+      "date": "2025-05-03",
+      "finish": "T5",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Visit Knoxville Open",
+      "date": "2025-04-12",
+      "finish": "T24",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Club Car Championship",
+      "date": "2025-03-22",
+      "finish": "T12",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Veritex Bank Championship",
+      "date": "2025-03-01",
+      "finish": "T20",
+      "tour": "KORN_FERRY_TOUR"
+    }
+  ]
+}

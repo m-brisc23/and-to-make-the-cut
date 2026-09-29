@@ -1,0 +1,80 @@
+{
+  "playerId": "scottie-scheffler",
+  "playerName": "Scottie Scheffler",
+  "country": "USA",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 20,
+  "cutsMade": 18,
+  "wins": 4,
+  "top10s": 10,
+  "scoringAverage": 68.19,
+  "strokesGained": {
+    "total": 2.88,
+    "offTheTee": 0.73,
+    "approach": 1.1,
+    "aroundTheGreen": 0.34,
+    "putting": 0.71
+  },
+  "drivingDistance": 296.0,
+  "drivingAccuracyPct": 60.3,
+  "greensInRegulationPct": 69.9,
+  "pointsRank": 1,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "4",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "20",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "11",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "3",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "11",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "30",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "1",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "9",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2026-02-08",
+      "finish": "17",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

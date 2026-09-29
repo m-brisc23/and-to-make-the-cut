@@ -1,0 +1,80 @@
+{
+  "playerId": "scottie-scheffler",
+  "playerName": "Scottie Scheffler",
+  "country": "USA",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 20,
+  "cutsMade": 19,
+  "wins": 6,
+  "top10s": 12,
+  "scoringAverage": 68.16,
+  "strokesGained": {
+    "total": 3.0,
+    "offTheTee": 0.76,
+    "approach": 1.15,
+    "aroundTheGreen": 0.35,
+    "putting": 0.74
+  },
+  "drivingDistance": 298.6,
+  "drivingAccuracyPct": 61.7,
+  "greensInRegulationPct": 71.7,
+  "pointsRank": 1,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "1",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2025-06-01",
+      "finish": "1",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "1",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "4",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "4",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2025-03-09",
+      "finish": "4",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2025-02-16",
+      "finish": "4",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2025-02-09",
+      "finish": "5",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

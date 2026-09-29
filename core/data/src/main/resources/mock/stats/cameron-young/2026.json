@@ -1,0 +1,86 @@
+{
+  "playerId": "cameron-young",
+  "playerName": "Cameron Young",
+  "country": "USA",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 24,
+  "cutsMade": 18,
+  "wins": 0,
+  "top10s": 0,
+  "scoringAverage": 69.92,
+  "strokesGained": {
+    "total": 0.99,
+    "offTheTee": 0.44,
+    "approach": 0.47,
+    "aroundTheGreen": 0.01,
+    "putting": 0.07
+  },
+  "drivingDistance": 319.6,
+  "drivingAccuracyPct": 67.6,
+  "greensInRegulationPct": 67.4,
+  "pointsRank": 26,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2026-08-09",
+      "finish": "52",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "48",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "49",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "54",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2026-02-08",
+      "finish": "49",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

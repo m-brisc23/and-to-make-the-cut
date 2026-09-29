@@ -1,0 +1,86 @@
+{
+  "playerId": "xander-schauffele",
+  "playerName": "Xander Schauffele",
+  "country": "USA",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 18,
+  "cutsMade": 14,
+  "wins": 0,
+  "top10s": 4,
+  "scoringAverage": 70.03,
+  "strokesGained": {
+    "total": 1.1,
+    "offTheTee": 0.16,
+    "approach": 0.23,
+    "aroundTheGreen": 0.17,
+    "putting": 0.54
+  },
+  "drivingDistance": 307.9,
+  "drivingAccuracyPct": 58.9,
+  "greensInRegulationPct": 69.6,
+  "pointsRank": 11,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2025-08-10",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "57",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2025-06-01",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "14",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "2",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2025-03-09",
+      "finish": "8",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2025-02-16",
+      "finish": "13",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2025-02-09",
+      "finish": "25",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

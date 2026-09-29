@@ -1,0 +1,74 @@
+{
+  "playerId": "tommy-fleetwood",
+  "playerName": "Tommy Fleetwood",
+  "country": "ENG",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 25,
+  "cutsMade": 15,
+  "wins": 1,
+  "top10s": 4,
+  "scoringAverage": 69.57,
+  "strokesGained": {
+    "total": 1.41,
+    "offTheTee": 0.3,
+    "approach": 0.47,
+    "aroundTheGreen": 0.23,
+    "putting": 0.41
+  },
+  "drivingDistance": 304.0,
+  "drivingAccuracyPct": 64.4,
+  "greensInRegulationPct": 68.8,
+  "pointsRank": 7,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "21",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "58",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "25",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "48",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "33",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "14",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

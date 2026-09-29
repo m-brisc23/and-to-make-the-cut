@@ -1,0 +1,74 @@
+{
+  "playerId": "russell-henley",
+  "playerName": "Russell Henley",
+  "country": "USA",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 19,
+  "cutsMade": 15,
+  "wins": 0,
+  "top10s": 4,
+  "scoringAverage": 69.87,
+  "strokesGained": {
+    "total": 1.23,
+    "offTheTee": 0.61,
+    "approach": 0.98,
+    "aroundTheGreen": 0.07,
+    "putting": -0.43
+  },
+  "drivingDistance": 305.0,
+  "drivingAccuracyPct": 57.2,
+  "greensInRegulationPct": 68.8,
+  "pointsRank": 14,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "24",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "6",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "52",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "7",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "42",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "46",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

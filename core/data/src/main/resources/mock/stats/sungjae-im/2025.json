@@ -1,0 +1,68 @@
+{
+  "playerId": "sungjae-im",
+  "playerName": "Sungjae Im",
+  "country": "KOR",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 22,
+  "cutsMade": 14,
+  "wins": 0,
+  "top10s": 0,
+  "scoringAverage": 70.59,
+  "strokesGained": {
+    "total": 0.31,
+    "offTheTee": 0.01,
+    "approach": 0.4,
+    "aroundTheGreen": 0.12,
+    "putting": -0.22
+  },
+  "drivingDistance": 303.2,
+  "drivingAccuracyPct": 67.8,
+  "greensInRegulationPct": 65.9,
+  "pointsRank": 37,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2025-08-10",
+      "finish": "59",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "21",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "61",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2025-02-09",
+      "finish": "19",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

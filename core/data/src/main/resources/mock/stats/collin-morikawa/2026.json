@@ -1,0 +1,74 @@
+{
+  "playerId": "collin-morikawa",
+  "playerName": "Collin Morikawa",
+  "country": "USA",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 23,
+  "cutsMade": 19,
+  "wins": 0,
+  "top10s": 5,
+  "scoringAverage": 69.79,
+  "strokesGained": {
+    "total": 1.2,
+    "offTheTee": 0.25,
+    "approach": 0.47,
+    "aroundTheGreen": 0.16,
+    "putting": 0.32
+  },
+  "drivingDistance": 295.9,
+  "drivingAccuracyPct": 57.8,
+  "greensInRegulationPct": 68.1,
+  "pointsRank": 11,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "58",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "17",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "11",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "34",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "T4",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "22",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "17",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}
