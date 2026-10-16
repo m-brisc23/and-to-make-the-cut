@@ -15,6 +15,7 @@ import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Refresh
@@ -279,6 +280,7 @@ private fun SearchAndSort(
                 }
             },
             placeholder = { Text(stringResource(R.string.cutodds_search)) },
+            shape = RoundedCornerShape(100.dp)
         )
         LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp), contentPadding = PaddingValues(vertical = 4.dp)) {
             items(BoardSort.entries) { option ->
@@ -286,6 +288,7 @@ private fun SearchAndSort(
                     selected = option == sort,
                     onClick = { onSortChange(option) },
                     label = { Text(stringResource(option.labelRes())) },
+                    shape = RoundedCornerShape(100.dp)
                 )
             }
         }
@@ -353,5 +356,19 @@ private fun LoadingPreview() {
             onTransientErrorShown = {},
             onPlayerClick = { _, _ -> },
         )
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+private fun ShowSearchAndSort() {
+    ToMakeTheCutTheme() {
+        SearchAndSort(
+            "Shane Lowry",
+            BoardSort.NAME,
+            {}
+        ) {
+
+        }
     }
 }
