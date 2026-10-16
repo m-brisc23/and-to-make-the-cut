@@ -1,0 +1,86 @@
+{
+  "playerId": "akshay-bhatia",
+  "playerName": "Akshay Bhatia",
+  "country": "USA",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 19,
+  "cutsMade": 11,
+  "wins": 0,
+  "top10s": 3,
+  "scoringAverage": 70.35,
+  "strokesGained": {
+    "total": 0.6,
+    "offTheTee": 0.09,
+    "approach": 0.04,
+    "aroundTheGreen": 0.31,
+    "putting": 0.16
+  },
+  "drivingDistance": 312.5,
+  "drivingAccuracyPct": 66.9,
+  "greensInRegulationPct": 66.4,
+  "pointsRank": 27,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Procore Championship",
+      "date": "2026-09-27",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2026-08-09",
+      "finish": "T5",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "8",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "46",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "42",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "27",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "19",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

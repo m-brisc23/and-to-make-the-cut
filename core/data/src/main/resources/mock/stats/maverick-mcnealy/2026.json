@@ -1,0 +1,86 @@
+{
+  "playerId": "maverick-mcnealy",
+  "playerName": "Maverick McNealy",
+  "country": "USA",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 24,
+  "cutsMade": 13,
+  "wins": 0,
+  "top10s": 2,
+  "scoringAverage": 70.4,
+  "strokesGained": {
+    "total": 0.67,
+    "offTheTee": 0.02,
+    "approach": 0.36,
+    "aroundTheGreen": -0.1,
+    "putting": 0.39
+  },
+  "drivingDistance": 293.3,
+  "drivingAccuracyPct": 69.3,
+  "greensInRegulationPct": 67.8,
+  "pointsRank": 38,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Procore Championship",
+      "date": "2026-09-27",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2026-08-09",
+      "finish": "36",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "11",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "46",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "34",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "48",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "2",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

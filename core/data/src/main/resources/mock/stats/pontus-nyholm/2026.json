@@ -1,0 +1,74 @@
+{
+  "playerId": "pontus-nyholm",
+  "playerName": "Pontus Nyholm",
+  "country": "SWE",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 25,
+  "cutsMade": 12,
+  "wins": 0,
+  "top10s": 1,
+  "scoringAverage": 71.08,
+  "strokesGained": {
+    "total": -0.07,
+    "offTheTee": -0.08,
+    "approach": 0.16,
+    "aroundTheGreen": -0.03,
+    "putting": -0.12
+  },
+  "drivingDistance": 289.1,
+  "drivingAccuracyPct": 57.2,
+  "greensInRegulationPct": 64.8,
+  "pointsRank": 67,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Procore Championship",
+      "date": "2026-09-27",
+      "finish": "10",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2026-08-09",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "51",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "52",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "46",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2026-02-08",
+      "finish": "68",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "playerId": "ben-griffin",
+  "playerName": "Ben Griffin",
+  "country": "USA",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 22,
+  "cutsMade": 18,
+  "wins": 2,
+  "top10s": 4,
+  "scoringAverage": 70.07,
+  "strokesGained": {
+    "total": 1.01,
+    "offTheTee": 0.2,
+    "approach": 0.46,
+    "aroundTheGreen": 0.18,
+    "putting": 0.17
+  },
+  "drivingDistance": 299.6,
+  "drivingAccuracyPct": 58.9,
+  "greensInRegulationPct": 67.3,
+  "pointsRank": 11,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2025-08-10",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "39",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "50",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2025-06-01",
+      "finish": "23",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "8",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "11",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "58",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2025-03-09",
+      "finish": "31",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2025-02-16",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2025-02-09",
+      "finish": "50",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

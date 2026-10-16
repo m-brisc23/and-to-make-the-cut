@@ -1,0 +1,86 @@
+{
+  "playerId": "corey-conners",
+  "playerName": "Corey Conners",
+  "country": "CAN",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 24,
+  "cutsMade": 16,
+  "wins": 0,
+  "top10s": 4,
+  "scoringAverage": 70.12,
+  "strokesGained": {
+    "total": 0.89,
+    "offTheTee": 0.47,
+    "approach": 0.28,
+    "aroundTheGreen": 0.14,
+    "putting": 0.0
+  },
+  "drivingDistance": 298.5,
+  "drivingAccuracyPct": 60.4,
+  "greensInRegulationPct": 66.3,
+  "pointsRank": 23,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2025-08-10",
+      "finish": "24",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "5",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2025-06-01",
+      "finish": "7",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "31",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "24",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2025-03-09",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2025-02-16",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2025-02-09",
+      "finish": "39",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

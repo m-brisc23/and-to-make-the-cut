@@ -1,0 +1,125 @@
+{
+  "season": 2025,
+  "tournaments": [
+    {
+      "id": "wm-phoenix-open-2025",
+      "name": "WM Phoenix Open",
+      "course": "TPC Scottsdale (Stadium)",
+      "location": "Scottsdale, AZ",
+      "season": 2025,
+      "startDate": "2025-02-06",
+      "endDate": "2025-02-09",
+      "status": "COMPLETED",
+      "eventType": "FULL_FIELD",
+      "cutRule": "Top 65 & ties"
+    },
+    {
+      "id": "genesis-invitational-2025",
+      "name": "The Genesis Invitational",
+      "course": "Torrey Pines (South)",
+      "location": "San Diego, CA",
+      "season": 2025,
+      "startDate": "2025-02-13",
+      "endDate": "2025-02-16",
+      "status": "COMPLETED",
+      "eventType": "SIGNATURE",
+      "cutRule": "Top 50 & ties"
+    },
+    {
+      "id": "arnold-palmer-invitational-2025",
+      "name": "Arnold Palmer Invitational",
+      "course": "Bay Hill Club & Lodge",
+      "location": "Orlando, FL",
+      "season": 2025,
+      "startDate": "2025-03-06",
+      "endDate": "2025-03-09",
+      "status": "COMPLETED",
+      "eventType": "SIGNATURE",
+      "cutRule": "Top 50 & ties"
+    },
+    {
+      "id": "the-players-championship-2025",
+      "name": "THE PLAYERS Championship",
+      "course": "TPC Sawgrass (Stadium)",
+      "location": "Ponte Vedra Beach, FL",
+      "season": 2025,
+      "startDate": "2025-03-13",
+      "endDate": "2025-03-16",
+      "status": "COMPLETED",
+      "eventType": "MAJOR",
+      "cutRule": "Top 65 & ties"
+    },
+    {
+      "id": "masters-tournament-2025",
+      "name": "Masters Tournament",
+      "course": "Augusta National Golf Club",
+      "location": "Augusta, GA",
+      "season": 2025,
+      "startDate": "2025-04-10",
+      "endDate": "2025-04-13",
+      "status": "COMPLETED",
+      "eventType": "MAJOR",
+      "cutRule": "Top 50 & ties"
+    },
+    {
+      "id": "pga-championship-2025",
+      "name": "PGA Championship",
+      "course": "Quail Hollow Club",
+      "location": "Charlotte, NC",
+      "season": 2025,
+      "startDate": "2025-05-15",
+      "endDate": "2025-05-18",
+      "status": "COMPLETED",
+      "eventType": "MAJOR",
+      "cutRule": "Top 70 & ties"
+    },
+    {
+      "id": "the-memorial-tournament-2025",
+      "name": "the Memorial Tournament",
+      "course": "Muirfield Village Golf Club",
+      "location": "Dublin, OH",
+      "season": 2025,
+      "startDate": "2025-05-29",
+      "endDate": "2025-06-01",
+      "status": "COMPLETED",
+      "eventType": "SIGNATURE",
+      "cutRule": "Top 50 & ties"
+    },
+    {
+      "id": "us-open-2025",
+      "name": "U.S. Open",
+      "course": "Oakmont Country Club",
+      "location": "Oakmont, PA",
+      "season": 2025,
+      "startDate": "2025-06-12",
+      "endDate": "2025-06-15",
+      "status": "COMPLETED",
+      "eventType": "MAJOR",
+      "cutRule": "Top 60 & ties"
+    },
+    {
+      "id": "the-open-championship-2025",
+      "name": "The Open Championship",
+      "course": "Royal Portrush",
+      "location": "Portrush, NIR",
+      "season": 2025,
+      "startDate": "2025-07-17",
+      "endDate": "2025-07-20",
+      "status": "COMPLETED",
+      "eventType": "MAJOR",
+      "cutRule": "Top 70 & ties"
+    },
+    {
+      "id": "wyndham-championship-2025",
+      "name": "Wyndham Championship",
+      "course": "Sedgefield Country Club",
+      "location": "Greensboro, NC",
+      "season": 2025,
+      "startDate": "2025-08-07",
+      "endDate": "2025-08-10",
+      "status": "COMPLETED",
+      "eventType": "FULL_FIELD",
+      "cutRule": "Top 65 & ties"
+    }
+  ]
+}

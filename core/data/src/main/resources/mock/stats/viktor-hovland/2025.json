@@ -1,0 +1,68 @@
+{
+  "playerId": "viktor-hovland",
+  "playerName": "Viktor Hovland",
+  "country": "NOR",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 18,
+  "cutsMade": 13,
+  "wins": 0,
+  "top10s": 1,
+  "scoringAverage": 70.51,
+  "strokesGained": {
+    "total": 0.47,
+    "offTheTee": 0.47,
+    "approach": 0.18,
+    "aroundTheGreen": 0.03,
+    "putting": -0.21
+  },
+  "drivingDistance": 290.1,
+  "drivingAccuracyPct": 55.6,
+  "greensInRegulationPct": 66.5,
+  "pointsRank": 32,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2025-08-10",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "67",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "18",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "21",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "34",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2025-02-09",
+      "finish": "47",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

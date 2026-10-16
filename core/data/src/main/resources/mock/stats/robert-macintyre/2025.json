@@ -1,0 +1,86 @@
+{
+  "playerId": "robert-macintyre",
+  "playerName": "Robert MacIntyre",
+  "country": "SCO",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 21,
+  "cutsMade": 13,
+  "wins": 0,
+  "top10s": 3,
+  "scoringAverage": 69.93,
+  "strokesGained": {
+    "total": 0.99,
+    "offTheTee": 0.15,
+    "approach": 0.31,
+    "aroundTheGreen": 0.1,
+    "putting": 0.43
+  },
+  "drivingDistance": 291.8,
+  "drivingAccuracyPct": 65.8,
+  "greensInRegulationPct": 66.0,
+  "pointsRank": 24,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2025-08-10",
+      "finish": "48",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "22",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2025-06-01",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "41",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2025-03-09",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2025-02-16",
+      "finish": "39",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2025-02-09",
+      "finish": "57",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

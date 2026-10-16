@@ -1,0 +1,74 @@
+{
+  "playerId": "collin-morikawa",
+  "playerName": "Collin Morikawa",
+  "country": "USA",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 23,
+  "cutsMade": 18,
+  "wins": 0,
+  "top10s": 3,
+  "scoringAverage": 69.85,
+  "strokesGained": {
+    "total": 1.25,
+    "offTheTee": 0.26,
+    "approach": 0.49,
+    "aroundTheGreen": 0.17,
+    "putting": 0.33
+  },
+  "drivingDistance": 297.6,
+  "drivingAccuracyPct": 58.2,
+  "greensInRegulationPct": 67.5,
+  "pointsRank": 9,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "19",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "42",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2025-06-01",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "24",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2025-03-09",
+      "finish": "41",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2025-02-16",
+      "finish": "36",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "playerId": "rory-mcilroy",
+  "playerName": "Rory McIlroy",
+  "country": "NIR",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 18,
+  "cutsMade": 13,
+  "wins": 3,
+  "top10s": 5,
+  "scoringAverage": 69.16,
+  "strokesGained": {
+    "total": 1.87,
+    "offTheTee": 0.3,
+    "approach": 1.31,
+    "aroundTheGreen": 0.56,
+    "putting": -0.3
+  },
+  "drivingDistance": 308.9,
+  "drivingAccuracyPct": 60.7,
+  "greensInRegulationPct": 69.1,
+  "pointsRank": 5,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "8",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "22",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2025-06-01",
+      "finish": "2",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "38",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "1",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "1",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2025-03-09",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2025-02-16",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

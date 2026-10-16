@@ -1,0 +1,80 @@
+{
+  "playerId": "justin-thomas",
+  "playerName": "Justin Thomas",
+  "country": "USA",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 23,
+  "cutsMade": 16,
+  "wins": 1,
+  "top10s": 4,
+  "scoringAverage": 69.89,
+  "strokesGained": {
+    "total": 1.21,
+    "offTheTee": 0.35,
+    "approach": 0.39,
+    "aroundTheGreen": 0.36,
+    "putting": 0.11
+  },
+  "drivingDistance": 307.7,
+  "drivingAccuracyPct": 63.7,
+  "greensInRegulationPct": 66.1,
+  "pointsRank": 8,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "44",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "36",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "26",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "30",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2026-02-08",
+      "finish": "11",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

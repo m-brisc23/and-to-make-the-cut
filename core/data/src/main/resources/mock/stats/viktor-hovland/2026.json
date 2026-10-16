@@ -1,0 +1,86 @@
+{
+  "playerId": "viktor-hovland",
+  "playerName": "Viktor Hovland",
+  "country": "NOR",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 25,
+  "cutsMade": 18,
+  "wins": 0,
+  "top10s": 0,
+  "scoringAverage": 70.22,
+  "strokesGained": {
+    "total": 0.87,
+    "offTheTee": 0.58,
+    "approach": 0.35,
+    "aroundTheGreen": 0.08,
+    "putting": -0.14
+  },
+  "drivingDistance": 288.8,
+  "drivingAccuracyPct": 54.5,
+  "greensInRegulationPct": 67.4,
+  "pointsRank": 38,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Procore Championship",
+      "date": "2026-09-27",
+      "finish": "38",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2026-08-09",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "15",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "58",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "21",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "39",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "36",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "33",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

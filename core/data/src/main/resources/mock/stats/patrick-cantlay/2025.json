@@ -1,0 +1,74 @@
+{
+  "playerId": "patrick-cantlay",
+  "playerName": "Patrick Cantlay",
+  "country": "USA",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 18,
+  "cutsMade": 14,
+  "wins": 0,
+  "top10s": 3,
+  "scoringAverage": 69.82,
+  "strokesGained": {
+    "total": 1.2,
+    "offTheTee": 0.42,
+    "approach": 0.31,
+    "aroundTheGreen": -0.18,
+    "putting": 0.65
+  },
+  "drivingDistance": 305.3,
+  "drivingAccuracyPct": 66.4,
+  "greensInRegulationPct": 69.2,
+  "pointsRank": 8,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "29",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "17",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2025-06-01",
+      "finish": "26",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "24",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "18",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2025-03-09",
+      "finish": "18",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2025-02-16",
+      "finish": "10",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

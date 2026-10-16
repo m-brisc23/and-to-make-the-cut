@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="player_back">Back</string>
+    <string name="player_title_fallback">Player</string>
+    <string name="player_to_make_cut">to make the cut</string>
+    <string name="player_chart_title">Make-cut probability</string>
+    <string name="player_chart_subtitle">No-vig probability by sportsbook. Drag across the chart to scrub through the tournament.</string>
+    <string name="player_chart_description">Line chart of %1$s\'s make-the-cut probability across %2$d snapshots, from %3$s to %4$s.</string>
+    <string name="player_consensus">Consensus</string>
+    <string name="player_table_book">Book</string>
+    <string name="player_table_yes">Yes</string>
+    <string name="player_table_no">No</string>
+    <string name="player_table_fair">No-vig</string>
+    <string name="player_table_none">—</string>
+    <string name="player_not_offered">Not offered</string>
+    <string name="player_stats_title">Season statistics</string>
+    <string name="player_stats_empty">No statistics available for this player.</string>
+    <string name="player_rank">#%1$d %2$s</string>
+    <string name="player_events">Events</string>
+    <string name="player_cuts_made">Cuts made</string>
+    <string name="player_wins">Wins</string>
+    <string name="player_top10s">Top-10s</string>
+    <string name="player_scoring_avg">Scoring avg</string>
+    <string name="player_driving_distance">Driving dist.</string>
+    <string name="player_driving_accuracy">Driving acc.</string>
+    <string name="player_gir">GIR</string>
+    <string name="player_sg_title">Strokes gained per round</string>
+    <string name="player_sg_total">Total</string>
+    <string name="player_sg_ott">Off the tee</string>
+    <string name="player_sg_app">Approach</string>
+    <string name="player_sg_arg">Around green</string>
+    <string name="player_sg_putt">Putting</string>
+    <string name="player_recent_results">Recent results</string>
+    <string name="player_yards">%1$s yds</string>
+    <string name="player_percent">%1$s%%</string>
+</resources>

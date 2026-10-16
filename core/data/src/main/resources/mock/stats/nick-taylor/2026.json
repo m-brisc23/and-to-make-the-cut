@@ -1,0 +1,74 @@
+{
+  "playerId": "nick-taylor",
+  "playerName": "Nick Taylor",
+  "country": "CAN",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 20,
+  "cutsMade": 14,
+  "wins": 0,
+  "top10s": 3,
+  "scoringAverage": 70.63,
+  "strokesGained": {
+    "total": 0.39,
+    "offTheTee": 0.34,
+    "approach": 1.14,
+    "aroundTheGreen": 0.26,
+    "putting": -1.35
+  },
+  "drivingDistance": 314.1,
+  "drivingAccuracyPct": 52.5,
+  "greensInRegulationPct": 67.4,
+  "pointsRank": 48,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Procore Championship",
+      "date": "2026-09-27",
+      "finish": "62",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2026-08-09",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "64",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "61",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "14",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "T4",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2026-02-08",
+      "finish": "30",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

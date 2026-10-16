@@ -1,0 +1,74 @@
+{
+  "playerId": "pontus-nyholm",
+  "playerName": "Pontus Nyholm",
+  "country": "SWE",
+  "season": 2025,
+  "tour": "KORN_FERRY_TOUR",
+  "eventsPlayed": 21,
+  "cutsMade": 10,
+  "wins": 0,
+  "top10s": 4,
+  "scoringAverage": 70.25,
+  "strokesGained": {
+    "total": 0.76,
+    "offTheTee": 0.16,
+    "approach": 0.5,
+    "aroundTheGreen": 0.07,
+    "putting": 0.03
+  },
+  "drivingDistance": 289.9,
+  "drivingAccuracyPct": 57.8,
+  "greensInRegulationPct": 65.4,
+  "pointsRank": 11,
+  "pointsLabel": "Korn Ferry Tour Points",
+  "recentResults": [
+    {
+      "tournamentName": "Panama Championship",
+      "date": "2025-07-26",
+      "finish": "MC",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "UNC Health Championship",
+      "date": "2025-07-05",
+      "finish": "T30",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Club Car Championship",
+      "date": "2025-06-14",
+      "finish": "MC",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Korn Ferry Tour Championship",
+      "date": "2025-05-24",
+      "finish": "T2",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Albertsons Boise Open",
+      "date": "2025-05-03",
+      "finish": "MC",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Veritex Bank Championship",
+      "date": "2025-04-12",
+      "finish": "MC",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Visit Knoxville Open",
+      "date": "2025-03-22",
+      "finish": "MC",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Astara Golf Championship",
+      "date": "2025-03-01",
+      "finish": "T25",
+      "tour": "KORN_FERRY_TOUR"
+    }
+  ]
+}

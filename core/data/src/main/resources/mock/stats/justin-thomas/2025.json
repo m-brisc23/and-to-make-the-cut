@@ -1,0 +1,80 @@
+{
+  "playerId": "justin-thomas",
+  "playerName": "Justin Thomas",
+  "country": "USA",
+  "season": 2025,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 21,
+  "cutsMade": 15,
+  "wins": 1,
+  "top10s": 4,
+  "scoringAverage": 69.85,
+  "strokesGained": {
+    "total": 1.27,
+    "offTheTee": 0.37,
+    "approach": 0.41,
+    "aroundTheGreen": 0.37,
+    "putting": 0.12
+  },
+  "drivingDistance": 309.3,
+  "drivingAccuracyPct": 60.9,
+  "greensInRegulationPct": 66.8,
+  "pointsRank": 9,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2025-07-20",
+      "finish": "61",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2025-06-15",
+      "finish": "30",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2025-06-01",
+      "finish": "12",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2025-05-18",
+      "finish": "51",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2025-04-13",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2025-03-16",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2025-03-09",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2025-02-16",
+      "finish": "33",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2025-02-09",
+      "finish": "33",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "playerId": "chandler-blanchet",
+  "playerName": "Chandler Blanchet",
+  "country": "USA",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 19,
+  "cutsMade": 9,
+  "wins": 0,
+  "top10s": 1,
+  "scoringAverage": 70.98,
+  "strokesGained": {
+    "total": 0.05,
+    "offTheTee": 0.1,
+    "approach": 0.14,
+    "aroundTheGreen": 0.02,
+    "putting": -0.21
+  },
+  "drivingDistance": 301.4,
+  "drivingAccuracyPct": 64.6,
+  "greensInRegulationPct": 67.3,
+  "pointsRank": 67,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Procore Championship",
+      "date": "2026-09-27",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2026-08-09",
+      "finish": "24",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "18",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "65",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "68",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2026-02-08",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "playerId": "johnny-keefer",
+  "playerName": "Johnny Keefer",
+  "country": "USA",
+  "season": 2025,
+  "tour": "KORN_FERRY_TOUR",
+  "eventsPlayed": 21,
+  "cutsMade": 17,
+  "wins": 2,
+  "top10s": 5,
+  "scoringAverage": 69.8,
+  "strokesGained": {
+    "total": 1.23,
+    "offTheTee": 0.58,
+    "approach": 0.43,
+    "aroundTheGreen": 0.15,
+    "putting": 0.07
+  },
+  "drivingDistance": 291.1,
+  "drivingAccuracyPct": 59.2,
+  "greensInRegulationPct": 68.2,
+  "pointsRank": 1,
+  "pointsLabel": "Korn Ferry Tour Points",
+  "recentResults": [
+    {
+      "tournamentName": "Visit Knoxville Open",
+      "date": "2025-07-26",
+      "finish": "T12",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Albertsons Boise Open",
+      "date": "2025-07-05",
+      "finish": "T9",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Panama Championship",
+      "date": "2025-06-14",
+      "finish": "MC",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Club Car Championship",
+      "date": "2025-05-24",
+      "finish": "T15",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Veritex Bank Championship",
+      "date": "2025-05-03",
+      "finish": "T10",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "UNC Health Championship",
+      "date": "2025-04-12",
+      "finish": "2",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Astara Golf Championship",
+      "date": "2025-03-22",
+      "finish": "T31",
+      "tour": "KORN_FERRY_TOUR"
+    },
+    {
+      "tournamentName": "Korn Ferry Tour Championship",
+      "date": "2025-03-01",
+      "finish": "3",
+      "tour": "KORN_FERRY_TOUR"
+    }
+  ]
+}

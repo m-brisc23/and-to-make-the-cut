@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cutodds_title">ToMakeTheCut</string>
+    <string name="cutodds_refresh">Refresh odds</string>
+    <string name="cutodds_season">%1$d season</string>
+    <string name="cutodds_search">Search players or country code</string>
+    <string name="cutodds_clear_search">Clear search</string>
+    <string name="cutodds_sort_most_likely">Most likely</string>
+    <string name="cutodds_sort_least_likely">Least likely</string>
+    <string name="cutodds_sort_movers">Biggest movers</string>
+    <string name="cutodds_sort_name">Name</string>
+    <string name="cutodds_status_upcoming">Upcoming · pre-tournament prices</string>
+    <string name="cutodds_status_live">Live</string>
+    <string name="cutodds_status_completed">Final · cut is official</string>
+    <string name="cutodds_latest_snapshot">Latest prices: %1$s</string>
+    <string name="cutodds_players_priced">%1$d players priced · cut: %2$s</string>
+    <string name="cutodds_best_price">Best Yes: %1$s %2$s</string>
+    <string name="cutodds_no_price">No price</string>
+    <string name="cutodds_no_matches">No players match “%1$s”.</string>
+    <string name="cutodds_no_players">No make-cut prices have been posted yet.</string>
+    <string name="cutodds_row_description">%1$s, %2$s chance to make the cut</string>
+    <string name="cutodds_explainer">Probabilities are the average no-vig price across DraftKings, FanDuel, BetMGM and Caesars. Tap a player for the full chart and stats.</string>
+</resources>

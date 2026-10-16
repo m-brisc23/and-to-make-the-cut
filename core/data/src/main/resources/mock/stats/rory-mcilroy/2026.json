@@ -1,0 +1,74 @@
+{
+  "playerId": "rory-mcilroy",
+  "playerName": "Rory McIlroy",
+  "country": "NIR",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 25,
+  "cutsMade": 22,
+  "wins": 0,
+  "top10s": 9,
+  "scoringAverage": 69.49,
+  "strokesGained": {
+    "total": 1.67,
+    "offTheTee": 0.24,
+    "approach": 1.23,
+    "aroundTheGreen": 0.54,
+    "putting": -0.34
+  },
+  "drivingDistance": 307.6,
+  "drivingAccuracyPct": 61.9,
+  "greensInRegulationPct": 70.2,
+  "pointsRank": 5,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "31",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "23",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "the Memorial Tournament",
+      "date": "2026-06-07",
+      "finish": "8",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "55",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "44",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Arnold Palmer Invitational",
+      "date": "2026-03-08",
+      "finish": "39",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Genesis Invitational",
+      "date": "2026-02-22",
+      "finish": "12",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}

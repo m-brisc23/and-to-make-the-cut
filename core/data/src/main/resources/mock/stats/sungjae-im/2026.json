@@ -1,0 +1,74 @@
+{
+  "playerId": "sungjae-im",
+  "playerName": "Sungjae Im",
+  "country": "KOR",
+  "season": 2026,
+  "tour": "PGA_TOUR",
+  "eventsPlayed": 18,
+  "cutsMade": 10,
+  "wins": 0,
+  "top10s": 0,
+  "scoringAverage": 70.3,
+  "strokesGained": {
+    "total": 0.57,
+    "offTheTee": 0.08,
+    "approach": 0.51,
+    "aroundTheGreen": 0.15,
+    "putting": -0.17
+  },
+  "drivingDistance": 300.6,
+  "drivingAccuracyPct": 64.1,
+  "greensInRegulationPct": 66.7,
+  "pointsRank": 53,
+  "pointsLabel": "FedExCup",
+  "recentResults": [
+    {
+      "tournamentName": "Procore Championship",
+      "date": "2026-09-27",
+      "finish": "52",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Wyndham Championship",
+      "date": "2026-08-09",
+      "finish": "67",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "The Open Championship",
+      "date": "2026-07-19",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "U.S. Open",
+      "date": "2026-06-21",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "PGA Championship",
+      "date": "2026-05-17",
+      "finish": "MC",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "Masters Tournament",
+      "date": "2026-04-12",
+      "finish": "41",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "THE PLAYERS Championship",
+      "date": "2026-03-15",
+      "finish": "46",
+      "tour": "PGA_TOUR"
+    },
+    {
+      "tournamentName": "WM Phoenix Open",
+      "date": "2026-02-08",
+      "finish": "39",
+      "tour": "PGA_TOUR"
+    }
+  ]
+}
